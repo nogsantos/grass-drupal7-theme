@@ -1,0 +1,38 @@
+screenshot  = screenshot.png
+name        = Grass
+description = Grass is a blank canvas for theme developers. Use Grass as a starting point to facilitate your theme development.
+core        = 7.x
+
+; Stylesheets
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/bootstrap-theme.min.css
+
+; Optionally add some JavaScripts to your theme.
+
+scripts[] = js/bootstrap.min.js
+
+regions[header]         = Header
+regions[banner]         = Banner
+regions[navigation]     = Navigation
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer]         = Footer
+
+; Set the default values of settings on the theme-settings.php form.
+
+settings[grass_breadcrumb]           = yes
+settings[grass_breadcrumb_separator] = ' ›› '
+settings[grass_breadcrumb_home]      = 1
+settings[grass_breadcrumb_trailing]  = 0
+settings[grass_breadcrumb_title]     = 0
+settings[grass_skip_link_anchor]     = main-menu
+settings[grass_skip_link_text]       = Jump to navigation
+settings[grass_html5_respond_meta][] = respond
+settings[grass_html5_respond_meta][] = html5
+settings[grass_html5_respond_meta][] = meta
+settings[grass_rebuild_registry]     = 1
+settings[grass_wireframes]           = 0
